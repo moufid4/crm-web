@@ -5,6 +5,10 @@ get '/' do
   erb :index
 end
 
+get '/contacts/new' do
+	erb :new
+end
+
 get '/contacts' do
 	erb :contacts
 
